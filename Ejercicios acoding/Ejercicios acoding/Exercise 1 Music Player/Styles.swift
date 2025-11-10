@@ -63,11 +63,11 @@ struct ActionButton: ButtonStyle {
     }
 }
 
- extension Double {
+extension Double {
     var asTimeString: String {
         let minutes = Int(self) / 60
         let secs = Int(self) % 60
-        return String(format: "%d:%02d", minutes, secs)
+        return "\(minutes.formatted()):\(secs.formatted(.number.precision(.integerLength(2))))"
     }
 }
 
