@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C85680342ECB9DAC006B530C /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680332ECB9DAC006B530C /* Styles.swift */; };
+		C85680342ECB9DAC006B530C /* AppStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680332ECB9DAC006B530C /* AppStyles.swift */; };
 		C8BA04772EC748D8007A79EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8BA04732EC748D8007A79EB /* Assets.xcassets */; };
 		C8BA04782EC748D8007A79EB /* AlbumCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */; };
 		C8BA04792EC748D8007A79EB /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */; };
@@ -37,7 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C85680332ECB9DAC006B530C /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		C85680332ECB9DAC006B530C /* AppStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyles.swift; sourceTree = "<group>"; };
 		C8891D522EC2026000B5EA76 /* Ejercicios acoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejercicios acoding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCoverView.swift; sourceTree = "<group>"; };
 		C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 				C8F251662ECB752A008903EA /* Models */,
 				C8F2516F2ECB769E008903EA /* Components */,
 				C8F251642ECB51EB008903EA /* WeatherApp.swift */,
-				C85680332ECB9DAC006B530C /* Styles.swift */,
+				C85680332ECB9DAC006B530C /* AppStyles.swift */,
 			);
 			path = "Exercise 2 Weather app";
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 				C8BA04842EC74DCF007A79EB /* PlaybackControls.swift in Sources */,
 				C8BA04822EC74DB7007A79EB /* TimelineSlider.swift in Sources */,
 				C8BA047B2EC748D8007A79EB /* Song.swift in Sources */,
-				C85680342ECB9DAC006B530C /* Styles.swift in Sources */,
+				C85680342ECB9DAC006B530C /* AppStyles.swift in Sources */,
 				C8F251792ECB776C008903EA /* DailyForecastCard.swift in Sources */,
 				C8F251732ECB771D008903EA /* CurrentWeatherView.swift in Sources */,
 				C8F251652ECB51EB008903EA /* WeatherApp.swift in Sources */,
@@ -406,7 +406,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62QLYFGB37;
+				DEVELOPMENT_TEAM = MBFB47H6TQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -419,7 +419,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "joseluis.corral.lopez.Ejercicios-acoding";
+				PRODUCT_BUNDLE_IDENTIFIER = "joseluis.corral.lopez.Ejercicios-acoding-git";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -438,7 +438,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62QLYFGB37;
+				DEVELOPMENT_TEAM = MBFB47H6TQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -451,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "joseluis.corral.lopez.Ejercicios-acoding";
+				PRODUCT_BUNDLE_IDENTIFIER = "joseluis.corral.lopez.Ejercicios-acoding-git";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
