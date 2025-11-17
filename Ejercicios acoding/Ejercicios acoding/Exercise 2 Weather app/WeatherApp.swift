@@ -33,7 +33,6 @@ struct WeatherApp: View {
         .ignoresSafeArea()
     }
 }
- 
 
 #Preview {
     WeatherApp()

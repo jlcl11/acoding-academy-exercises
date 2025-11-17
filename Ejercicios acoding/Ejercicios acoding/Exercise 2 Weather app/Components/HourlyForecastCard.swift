@@ -14,14 +14,12 @@ struct HourlyForecastCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             Text(description)
-                .font(.system(size: 16))
-                .foregroundStyle(.white)
+                .whiteText(size: 16)
                 .padding(.horizontal, Constants.cardHorizontalPadding)
                 .padding(.top, Constants.cardVerticalPadding)
             
             Divider()
-                .background(Color.white.opacity(0.3))
-                .padding(.horizontal, Constants.cardHorizontalPadding)
+                .cardDivider()
             
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: Constants.hourlyItemSpacing) {
@@ -33,8 +31,21 @@ struct HourlyForecastCard: View {
             }
             .padding(.bottom, Constants.cardVerticalPadding)
         }
-        .background(.ultraThinMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: Constants.cardCornerRadius))
-        .padding(.horizontal, Constants.cardHorizontalPadding)
+        .weatherCard()
     }
+}
+
+#Preview {
+    ZStack {
+        WeatherBackground()
+        VStack {
+            Spacer()
+            HourlyForecastCard(
+                forecasts: HourlyForecast.mocks,
+                description: "Mostly cloudy conditions continuing for the next few hours."
+            )
+            Spacer()
+        }
+    }
+    .ignoresSafeArea()
 }

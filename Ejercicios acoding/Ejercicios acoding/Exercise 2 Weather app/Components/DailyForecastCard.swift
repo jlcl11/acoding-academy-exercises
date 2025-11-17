@@ -24,23 +24,31 @@ struct DailyForecastCard: View {
             .padding(.top, Constants.cardVerticalPadding)
             
             Divider()
-                .background(Color.white.opacity(0.3))
-                .padding(.horizontal, Constants.cardHorizontalPadding)
+                .cardDivider()
             
             VStack(spacing: 8) {
                 ForEach(Array(forecasts.enumerated()), id: \.element.id) { index, forecast in
                     if index > 0 {
                         Divider()
-                            .background(Color.white.opacity(0.3))
-                            .padding(.horizontal, Constants.cardHorizontalPadding)
+                            .cardDivider()
                     }
                     DailyForecastRow(forecast: forecast)
                 }
             }
             .padding(.bottom, Constants.cardVerticalPadding)
         }
-        .background(.ultraThinMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: Constants.cardCornerRadius))
-        .padding(.horizontal, Constants.cardHorizontalPadding)
+        .weatherCard()
     }
+}
+
+#Preview {
+    ZStack {
+        WeatherBackground()
+        VStack {
+            Spacer()
+            DailyForecastCard(forecasts: DailyForecast.mocks)
+            Spacer()
+        }
+    }
+    .ignoresSafeArea()
 }

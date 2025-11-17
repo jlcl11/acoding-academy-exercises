@@ -13,33 +13,37 @@ struct CurrentWeatherView: View {
     var body: some View {
         VStack(spacing: 8) {
             Text(weather.location)
-                .font(.system(size: 36, weight: .regular))
-                .foregroundStyle(.white)
+                .whiteText(size: 36)
             
             Text("\(weather.temperature)°")
-                .font(.system(size: 96, weight: .thin))
-                .foregroundStyle(.white)
+                .whiteText(size: 96, weight: .thin)
             
             Text(weather.condition)
-                .font(.system(size: 22, weight: .medium))
-                .foregroundStyle(.white)
+                .whiteText(size: 22, weight: .medium)
             
             HStack(spacing: 12) {
                 HStack(spacing: 4) {
                     Text("H:")
-                        .font(.system(size: 18, weight: .medium))
+                        .whiteText(size: 18, weight: .medium)
                     Text("\(weather.high)°")
-                        .font(.system(size: 18, weight: .semibold))
+                        .whiteText(size: 18, weight: .semibold)
                 }
                 
                 HStack(spacing: 4) {
                     Text("L:")
-                        .font(.system(size: 18, weight: .medium))
+                        .whiteText(size: 18, weight: .medium)
                     Text("\(weather.low)°")
-                        .font(.system(size: 18, weight: .semibold))
+                        .whiteText(size: 18, weight: .semibold)
                 }
             }
-            .foregroundStyle(.white)
         }
     }
+}
+
+#Preview {
+    ZStack {
+        WeatherBackground()
+        CurrentWeatherView(weather: .mock)
+    }
+    .ignoresSafeArea()
 }

@@ -20,3 +20,7 @@ struct WeatherBackground: View {
         )
     }
 }
+
+#Preview {
+    WeatherBackground()
+}

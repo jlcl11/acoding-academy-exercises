@@ -13,17 +13,40 @@ struct HourlyWeatherView: View {
     var body: some View {
         VStack(spacing: 8) {
             Text(forecast.time)
-                .font(.system(size: 15, weight: .medium))
-                .foregroundStyle(.white)
+                .whiteText(size: 15, weight: .medium)
             
             Image(systemName: forecast.icon)
-                .font(.system(size: 24))
-                .foregroundStyle(.yellow)
-                .symbolRenderingMode(.hierarchical)
+                .weatherIcon()
             
             Text("\(forecast.temp)°")
-                .font(.system(size: 18, weight: .medium))
-                .foregroundStyle(.white)
+                .whiteText(size: 18, weight: .medium)
         }
     }
+}
+
+#Preview {
+    ZStack {
+        WeatherBackground()
+        HStack(spacing: 20) {
+            HourlyWeatherView(forecast: HourlyForecast(  
+                time: "Now",
+                icon: "sun.max.fill",
+                temp: 22
+            ))
+            
+            HourlyWeatherView(forecast: HourlyForecast(
+                time: "15:00",
+                icon: "cloud.sun.fill",
+                temp: 24
+            ))
+            
+            HourlyWeatherView(forecast: HourlyForecast(
+                time: "16:00",
+                icon: "cloud.fill",
+                temp: 23
+            ))
+        }
+        .padding()
+    }
+    .ignoresSafeArea()
 }
