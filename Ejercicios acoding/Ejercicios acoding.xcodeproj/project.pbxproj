@@ -8,6 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		C85680342ECB9DAC006B530C /* AppStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680332ECB9DAC006B530C /* AppStyles.swift */; };
+		C85680412ECBC8DD006B530C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680402ECBC8DD006B530C /* Task.swift */; };
+		C85680442ECBC906006B530C /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680432ECBC906006B530C /* TaskViewModel.swift */; };
+		C856804E2ECBC980006B530C /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856804D2ECBC980006B530C /* FilterButton.swift */; };
+		C85680502ECBC989006B530C /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856804F2ECBC989006B530C /* SecondaryButton.swift */; };
+		C85680522ECBC997006B530C /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680512ECBC997006B530C /* TaskRowView.swift */; };
+		C85680542ECBC9A2006B530C /* PriorityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680532ECBC9A2006B530C /* PriorityBadge.swift */; };
+		C85680562ECBC9B5006B530C /* ToDoStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680552ECBC9B5006B530C /* ToDoStyles.swift */; };
+		C85680592ECBCE7A006B530C /* CategoryBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680582ECBCE7A006B530C /* CategoryBadge.swift */; };
+		C856805B2ECBCE8A006B530C /* CompletionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856805A2ECBCE8A006B530C /* CompletionButton.swift */; };
+		C856805D2ECBCE9A006B530C /* FavoriteIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856805C2ECBCE9A006B530C /* FavoriteIcon.swift */; };
+		C856805F2ECBCEC4006B530C /* DueDateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856805E2ECBCEC4006B530C /* DueDateLabel.swift */; };
+		C85680612ECBCED4006B530C /* TaskTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680602ECBCED4006B530C /* TaskTitle.swift */; };
+		C85680632ECBCEE6006B530C /* TaskDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680622ECBCEE6006B530C /* TaskDescription.swift */; };
+		C85680652ECBCEFF006B530C /* TaskMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680642ECBCEFF006B530C /* TaskMetadata.swift */; };
+		C85680672ECBCF1A006B530C /* TaskContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680662ECBCF1A006B530C /* TaskContent.swift */; };
+		C85680692ECBCF30006B530C /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680682ECBCF30006B530C /* EmptyStateView.swift */; };
+		C856806B2ECBCF46006B530C /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856806A2ECBCF46006B530C /* SectionHeader.swift */; };
+		C856806D2ECBCF7D006B530C /* FilterButtonsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856806C2ECBCF7D006B530C /* FilterButtonsRow.swift */; };
+		C856806F2ECBCFB8006B530C /* ActionButtonsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856806E2ECBCFB8006B530C /* ActionButtonsRow.swift */; };
+		C85680712ECBCFD4006B530C /* TaskPreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680702ECBCFD4006B530C /* TaskPreviewCard.swift */; };
+		C85680732ECBCFFD006B530C /* AddTaskSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680722ECBCFFD006B530C /* AddTaskSheet.swift */; };
+		C85680752ECBD023006B530C /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680742ECBD023006B530C /* ToDoView.swift */; };
 		C8BA04772EC748D8007A79EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8BA04732EC748D8007A79EB /* Assets.xcassets */; };
 		C8BA04782EC748D8007A79EB /* AlbumCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */; };
 		C8BA04792EC748D8007A79EB /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */; };
@@ -38,6 +60,28 @@
 
 /* Begin PBXFileReference section */
 		C85680332ECB9DAC006B530C /* AppStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyles.swift; sourceTree = "<group>"; };
+		C85680402ECBC8DD006B530C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C85680432ECBC906006B530C /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		C856804D2ECBC980006B530C /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		C856804F2ECBC989006B530C /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		C85680512ECBC997006B530C /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		C85680532ECBC9A2006B530C /* PriorityBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityBadge.swift; sourceTree = "<group>"; };
+		C85680552ECBC9B5006B530C /* ToDoStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoStyles.swift; sourceTree = "<group>"; };
+		C85680582ECBCE7A006B530C /* CategoryBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBadge.swift; sourceTree = "<group>"; };
+		C856805A2ECBCE8A006B530C /* CompletionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionButton.swift; sourceTree = "<group>"; };
+		C856805C2ECBCE9A006B530C /* FavoriteIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteIcon.swift; sourceTree = "<group>"; };
+		C856805E2ECBCEC4006B530C /* DueDateLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateLabel.swift; sourceTree = "<group>"; };
+		C85680602ECBCED4006B530C /* TaskTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTitle.swift; sourceTree = "<group>"; };
+		C85680622ECBCEE6006B530C /* TaskDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDescription.swift; sourceTree = "<group>"; };
+		C85680642ECBCEFF006B530C /* TaskMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMetadata.swift; sourceTree = "<group>"; };
+		C85680662ECBCF1A006B530C /* TaskContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskContent.swift; sourceTree = "<group>"; };
+		C85680682ECBCF30006B530C /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		C856806A2ECBCF46006B530C /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		C856806C2ECBCF7D006B530C /* FilterButtonsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonsRow.swift; sourceTree = "<group>"; };
+		C856806E2ECBCFB8006B530C /* ActionButtonsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonsRow.swift; sourceTree = "<group>"; };
+		C85680702ECBCFD4006B530C /* TaskPreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPreviewCard.swift; sourceTree = "<group>"; };
+		C85680722ECBCFFD006B530C /* AddTaskSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskSheet.swift; sourceTree = "<group>"; };
+		C85680742ECBD023006B530C /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 		C8891D522EC2026000B5EA76 /* Ejercicios acoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejercicios acoding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCoverView.swift; sourceTree = "<group>"; };
 		C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
@@ -78,6 +122,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C856803B2ECBB289006B530C /* Exercise 3 To Do */ = {
+			isa = PBXGroup;
+			children = (
+				C85680422ECBC8F5006B530C /* ViewModel */,
+				C856803D2ECBB2E5006B530C /* Views */,
+				C856803C2ECBB2DE006B530C /* Models */,
+				C85680552ECBC9B5006B530C /* ToDoStyles.swift */,
+			);
+			path = "Exercise 3 To Do";
+			sourceTree = "<group>";
+		};
+		C856803C2ECBB2DE006B530C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C85680402ECBC8DD006B530C /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C856803D2ECBB2E5006B530C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C85680742ECBD023006B530C /* ToDoView.swift */,
+				C85680472ECBC938006B530C /* AddTask */,
+				C856804C2ECBC965006B530C /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C85680422ECBC8F5006B530C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C85680432ECBC906006B530C /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C85680472ECBC938006B530C /* AddTask */ = {
+			isa = PBXGroup;
+			children = (
+				C85680722ECBCFFD006B530C /* AddTaskSheet.swift */,
+			);
+			path = AddTask;
+			sourceTree = "<group>";
+		};
+		C856804C2ECBC965006B530C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C85680572ECBCE6B006B530C /* Subcomponents */,
+				C85680702ECBCFD4006B530C /* TaskPreviewCard.swift */,
+				C856806A2ECBCF46006B530C /* SectionHeader.swift */,
+				C85680682ECBCF30006B530C /* EmptyStateView.swift */,
+				C85680662ECBCF1A006B530C /* TaskContent.swift */,
+				C85680512ECBC997006B530C /* TaskRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C85680572ECBCE6B006B530C /* Subcomponents */ = {
+			isa = PBXGroup;
+			children = (
+				C856806E2ECBCFB8006B530C /* ActionButtonsRow.swift */,
+				C856806C2ECBCF7D006B530C /* FilterButtonsRow.swift */,
+				C85680642ECBCEFF006B530C /* TaskMetadata.swift */,
+				C85680622ECBCEE6006B530C /* TaskDescription.swift */,
+				C85680602ECBCED4006B530C /* TaskTitle.swift */,
+				C856805E2ECBCEC4006B530C /* DueDateLabel.swift */,
+				C856805C2ECBCE9A006B530C /* FavoriteIcon.swift */,
+				C856805A2ECBCE8A006B530C /* CompletionButton.swift */,
+				C85680582ECBCE7A006B530C /* CategoryBadge.swift */,
+				C85680532ECBC9A2006B530C /* PriorityBadge.swift */,
+				C856804F2ECBC989006B530C /* SecondaryButton.swift */,
+				C856804D2ECBC980006B530C /* FilterButton.swift */,
+			);
+			path = Subcomponents;
+			sourceTree = "<group>";
+		};
 		C8891D492EC2026000B5EA76 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +254,7 @@
 			children = (
 				C8BA04722EC748D8007A79EB /* Exercise 1 Music Player */,
 				C8F251632ECB51C2008903EA /* Exercise 2 Weather app */,
+				C856803B2ECBB289006B530C /* Exercise 3 To Do */,
 				C8BA04732EC748D8007A79EB /* Assets.xcassets */,
 				C8BA04742EC748D8007A79EB /* ContentView.swift */,
 				C8BA04752EC748D8007A79EB /* Ejercicios_acodingApp.swift */,
@@ -248,32 +370,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85680732ECBCFFD006B530C /* AddTaskSheet.swift in Sources */,
 				C8BA04882EC750C9007A79EB /* PlayerGradientBackground.swift in Sources */,
 				C8BA04862EC74DFE007A79EB /* ActionButtons.swift in Sources */,
+				C85680692ECBCF30006B530C /* EmptyStateView.swift in Sources */,
 				C8F2516E2ECB75F8008903EA /* DailyForecast.swift in Sources */,
+				C85680562ECBC9B5006B530C /* ToDoStyles.swift in Sources */,
 				C8F2516A2ECB7582008903EA /* CurrentWeather.swift in Sources */,
 				C8BA04782EC748D8007A79EB /* AlbumCoverView.swift in Sources */,
 				C8BA04792EC748D8007A79EB /* PlayerControlsView.swift in Sources */,
+				C856806B2ECBCF46006B530C /* SectionHeader.swift in Sources */,
 				C8F251772ECB7752008903EA /* HourlyWeatherView.swift in Sources */,
 				C8BA047A2EC748D8007A79EB /* MusicPlayer.swift in Sources */,
+				C85680672ECBCF1A006B530C /* TaskContent.swift in Sources */,
 				C8F251682ECB753F008903EA /* Constants.swift in Sources */,
+				C856806D2ECBCF7D006B530C /* FilterButtonsRow.swift in Sources */,
+				C85680522ECBC997006B530C /* TaskRowView.swift in Sources */,
 				C8F2517D2ECB77CC008903EA /* TemperatureBar.swift in Sources */,
+				C85680652ECBCEFF006B530C /* TaskMetadata.swift in Sources */,
+				C85680442ECBC906006B530C /* TaskViewModel.swift in Sources */,
 				C8BA04802EC74CC2007A79EB /* SongInfoHeader.swift in Sources */,
 				C8BA048A2EC750E5007A79EB /* VolumeControl.swift in Sources */,
+				C856805B2ECBCE8A006B530C /* CompletionButton.swift in Sources */,
+				C85680412ECBC8DD006B530C /* Task.swift in Sources */,
+				C85680712ECBCFD4006B530C /* TaskPreviewCard.swift in Sources */,
 				C8BA04842EC74DCF007A79EB /* PlaybackControls.swift in Sources */,
 				C8BA04822EC74DB7007A79EB /* TimelineSlider.swift in Sources */,
+				C85680542ECBC9A2006B530C /* PriorityBadge.swift in Sources */,
+				C85680592ECBCE7A006B530C /* CategoryBadge.swift in Sources */,
 				C8BA047B2EC748D8007A79EB /* Song.swift in Sources */,
+				C856804E2ECBC980006B530C /* FilterButton.swift in Sources */,
+				C85680502ECBC989006B530C /* SecondaryButton.swift in Sources */,
 				C85680342ECB9DAC006B530C /* AppStyles.swift in Sources */,
 				C8F251792ECB776C008903EA /* DailyForecastCard.swift in Sources */,
 				C8F251732ECB771D008903EA /* CurrentWeatherView.swift in Sources */,
+				C85680632ECBCEE6006B530C /* TaskDescription.swift in Sources */,
+				C856805D2ECBCE9A006B530C /* FavoriteIcon.swift in Sources */,
 				C8F251652ECB51EB008903EA /* WeatherApp.swift in Sources */,
 				C8BA047C2EC748D8007A79EB /* Styles.swift in Sources */,
 				C8BA047D2EC748D8007A79EB /* ContentView.swift in Sources */,
 				C8F2517B2ECB77A2008903EA /* DailyForecastRow.swift in Sources */,
 				C8F251752ECB7740008903EA /* HourlyForecastCard.swift in Sources */,
 				C8BA047E2EC748D8007A79EB /* Ejercicios_acodingApp.swift in Sources */,
+				C856806F2ECBCFB8006B530C /* ActionButtonsRow.swift in Sources */,
+				C85680752ECBD023006B530C /* ToDoView.swift in Sources */,
 				C8F2516C2ECB75D3008903EA /* HourlyForecast.swift in Sources */,
 				C8F251712ECB76BF008903EA /* WeatherBackground.swift in Sources */,
+				C85680612ECBCED4006B530C /* TaskTitle.swift in Sources */,
+				C856805F2ECBCEC4006B530C /* DueDateLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
