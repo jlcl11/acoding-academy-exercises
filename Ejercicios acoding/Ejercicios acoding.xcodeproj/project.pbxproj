@@ -6,17 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C8BA04772EC748D8007A79EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8BA04732EC748D8007A79EB /* Assets.xcassets */; };
+		C8BA04782EC748D8007A79EB /* AlbumCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */; };
+		C8BA04792EC748D8007A79EB /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */; };
+		C8BA047A2EC748D8007A79EB /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046F2EC748D8007A79EB /* MusicPlayer.swift */; };
+		C8BA047B2EC748D8007A79EB /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA04702EC748D8007A79EB /* Song.swift */; };
+		C8BA047C2EC748D8007A79EB /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA04712EC748D8007A79EB /* Styles.swift */; };
+		C8BA047D2EC748D8007A79EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA04742EC748D8007A79EB /* ContentView.swift */; };
+		C8BA047E2EC748D8007A79EB /* Ejercicios_acodingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA04752EC748D8007A79EB /* Ejercicios_acodingApp.swift */; };
+		C8BA04802EC74CC2007A79EB /* SongInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA047F2EC74CC2007A79EB /* SongInfoHeader.swift */; };
+		C8BA04822EC74DB7007A79EB /* TimelineSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA04812EC74DB7007A79EB /* TimelineSlider.swift */; };
+		C8BA04842EC74DCF007A79EB /* PlaybackControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA04832EC74DCF007A79EB /* PlaybackControls.swift */; };
+		C8BA04862EC74DFE007A79EB /* ActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA04852EC74DFE007A79EB /* ActionButtons.swift */; };
+		C8BA04882EC750C9007A79EB /* PlayerGradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA04872EC750C9007A79EB /* PlayerGradientBackground.swift */; };
+		C8BA048A2EC750E5007A79EB /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA04892EC750E5007A79EB /* VolumeControl.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C8891D522EC2026000B5EA76 /* Ejercicios acoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejercicios acoding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCoverView.swift; sourceTree = "<group>"; };
+		C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
+		C8BA046F2EC748D8007A79EB /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		C8BA04702EC748D8007A79EB /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		C8BA04712EC748D8007A79EB /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		C8BA04732EC748D8007A79EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8BA04742EC748D8007A79EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8BA04752EC748D8007A79EB /* Ejercicios_acodingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicios_acodingApp.swift; sourceTree = "<group>"; };
+		C8BA047F2EC74CC2007A79EB /* SongInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfoHeader.swift; sourceTree = "<group>"; };
+		C8BA04812EC74DB7007A79EB /* TimelineSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSlider.swift; sourceTree = "<group>"; };
+		C8BA04832EC74DCF007A79EB /* PlaybackControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControls.swift; sourceTree = "<group>"; };
+		C8BA04852EC74DFE007A79EB /* ActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtons.swift; sourceTree = "<group>"; };
+		C8BA04872EC750C9007A79EB /* PlayerGradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerGradientBackground.swift; sourceTree = "<group>"; };
+		C8BA04892EC750E5007A79EB /* VolumeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C8891D542EC2026000B5EA76 /* Ejercicios acoding */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Ejercicios acoding";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C8891D4F2EC2026000B5EA76 /* Frameworks */ = {
@@ -32,7 +55,7 @@
 		C8891D492EC2026000B5EA76 = {
 			isa = PBXGroup;
 			children = (
-				C8891D542EC2026000B5EA76 /* Ejercicios acoding */,
+				C8BA04762EC748D8007A79EB /* Ejercicios acoding */,
 				C8891D532EC2026000B5EA76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +66,51 @@
 				C8891D522EC2026000B5EA76 /* Ejercicios acoding.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C8BA046B2EC748D8007A79EB /* PlayerControlsSubcomponents */ = {
+			isa = PBXGroup;
+			children = (
+				C8BA04892EC750E5007A79EB /* VolumeControl.swift */,
+				C8BA04872EC750C9007A79EB /* PlayerGradientBackground.swift */,
+				C8BA04852EC74DFE007A79EB /* ActionButtons.swift */,
+				C8BA04832EC74DCF007A79EB /* PlaybackControls.swift */,
+				C8BA04812EC74DB7007A79EB /* TimelineSlider.swift */,
+				C8BA047F2EC74CC2007A79EB /* SongInfoHeader.swift */,
+			);
+			path = PlayerControlsSubcomponents;
+			sourceTree = "<group>";
+		};
+		C8BA046E2EC748D8007A79EB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */,
+				C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */,
+				C8BA046B2EC748D8007A79EB /* PlayerControlsSubcomponents */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C8BA04722EC748D8007A79EB /* Exercise 1 Music Player */ = {
+			isa = PBXGroup;
+			children = (
+				C8BA046E2EC748D8007A79EB /* Components */,
+				C8BA046F2EC748D8007A79EB /* MusicPlayer.swift */,
+				C8BA04702EC748D8007A79EB /* Song.swift */,
+				C8BA04712EC748D8007A79EB /* Styles.swift */,
+			);
+			path = "Exercise 1 Music Player";
+			sourceTree = "<group>";
+		};
+		C8BA04762EC748D8007A79EB /* Ejercicios acoding */ = {
+			isa = PBXGroup;
+			children = (
+				C8BA04722EC748D8007A79EB /* Exercise 1 Music Player */,
+				C8BA04732EC748D8007A79EB /* Assets.xcassets */,
+				C8BA04742EC748D8007A79EB /* ContentView.swift */,
+				C8BA04752EC748D8007A79EB /* Ejercicios_acodingApp.swift */,
+			);
+			path = "Ejercicios acoding";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +127,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C8891D542EC2026000B5EA76 /* Ejercicios acoding */,
 			);
 			name = "Ejercicios acoding";
 			packageProductDependencies = (
@@ -109,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8BA04772EC748D8007A79EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +185,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8BA04882EC750C9007A79EB /* PlayerGradientBackground.swift in Sources */,
+				C8BA04862EC74DFE007A79EB /* ActionButtons.swift in Sources */,
+				C8BA04782EC748D8007A79EB /* AlbumCoverView.swift in Sources */,
+				C8BA04792EC748D8007A79EB /* PlayerControlsView.swift in Sources */,
+				C8BA047A2EC748D8007A79EB /* MusicPlayer.swift in Sources */,
+				C8BA04802EC74CC2007A79EB /* SongInfoHeader.swift in Sources */,
+				C8BA048A2EC750E5007A79EB /* VolumeControl.swift in Sources */,
+				C8BA04842EC74DCF007A79EB /* PlaybackControls.swift in Sources */,
+				C8BA04822EC74DB7007A79EB /* TimelineSlider.swift in Sources */,
+				C8BA047B2EC748D8007A79EB /* Song.swift in Sources */,
+				C8BA047C2EC748D8007A79EB /* Styles.swift in Sources */,
+				C8BA047D2EC748D8007A79EB /* ContentView.swift in Sources */,
+				C8BA047E2EC748D8007A79EB /* Ejercicios_acodingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +330,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62QLYFGB37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -282,6 +362,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62QLYFGB37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
