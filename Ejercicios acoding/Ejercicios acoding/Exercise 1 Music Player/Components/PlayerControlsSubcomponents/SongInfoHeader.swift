@@ -35,3 +35,15 @@ struct SongInfoHeader: View {
        
     }
 }
+
+#Preview {
+    @Previewable @State var isLiked: Bool = false
+    
+    SongInfoHeader(
+        songName: "Stairway to Heaven",
+        artistName: "Led Zeppelin",
+        isLiked: $isLiked
+    )
+    .padding()
+    .background(Color.black)
+}

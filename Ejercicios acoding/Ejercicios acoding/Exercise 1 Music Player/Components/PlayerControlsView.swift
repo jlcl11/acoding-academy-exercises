@@ -37,3 +37,23 @@ struct PlayerControlsView: View {
         .padding(.vertical, 30)
     }
 }
+
+#Preview {
+    @Previewable @State var songPlayedTime: Double = 45.0
+    @Previewable @State var volume: Double = 0.7
+    @Previewable @State var isPlaying: Bool = true
+    @Previewable @State var isLiked: Bool = false
+    
+    PlayerControlsView(
+        song: Song(
+            name: "Bohemian Rhapsody",
+            artist: "Queen",
+            songDuration: 354.0,
+            songImage: .manchild
+        ),
+        songPlayedTime: $songPlayedTime,
+        volume: $volume,
+        isPlaying: $isPlaying,
+        isLiked: $isLiked
+    )
+}

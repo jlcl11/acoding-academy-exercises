@@ -24,3 +24,11 @@ struct PlaybackControls: View {
         .padding(.bottom, 20)
     }
 }
+
+#Preview {
+    @Previewable @State var isPlaying: Bool = true
+    
+    PlaybackControls(isPlaying: $isPlaying)
+        .padding()
+        .background(Color.black)
+}

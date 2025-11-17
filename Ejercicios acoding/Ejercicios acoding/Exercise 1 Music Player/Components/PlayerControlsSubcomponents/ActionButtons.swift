@@ -22,3 +22,7 @@ struct ActionButtons: View {
         .padding(.bottom, 8)
     }
 }
+
+#Preview {
+    ActionButtons()
+}

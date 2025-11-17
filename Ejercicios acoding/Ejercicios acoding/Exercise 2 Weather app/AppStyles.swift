@@ -47,6 +47,20 @@ struct WeatherIconStyle: ViewModifier {
     }
 }
 
+struct GradientProgressStyle: ProgressViewStyle {
+    let gradient: LinearGradient
+    
+    func makeBody(configuration: Configuration) -> some View {
+        ZStack(alignment: .leading) {
+            Capsule()
+                .fill(.white.opacity(0.3))
+            
+            Capsule()
+                .fill(gradient)
+                .scaleEffect(x: configuration.fractionCompleted ?? 0, y: 1, anchor: .leading)
+        }
+    }
+}
 
 extension View {
     func whiteText(size: CGFloat, weight: Font.Weight = .regular) -> some View {

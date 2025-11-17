@@ -29,3 +29,14 @@ struct TimelineSlider: View {
         .padding(.bottom, 16)
     }
 }
+
+#Preview {
+    @Previewable @State var currentTime: Double = 125.0
+    
+    TimelineSlider(
+        currentTime: $currentTime,
+        duration: 245.0
+    )
+    .padding()
+    .background(Color.black)
+}

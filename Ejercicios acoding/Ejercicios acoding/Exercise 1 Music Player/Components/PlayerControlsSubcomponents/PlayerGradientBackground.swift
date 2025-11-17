@@ -20,3 +20,7 @@ struct PlayerGradientBackground: View {
         )
     }
 }
+
+#Preview {
+    PlayerGradientBackground()
+}

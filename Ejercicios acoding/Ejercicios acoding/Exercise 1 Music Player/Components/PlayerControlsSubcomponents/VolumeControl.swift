@@ -24,3 +24,11 @@ struct VolumeControl: View {
         .padding(.bottom, 12)
     }
 }
+
+#Preview {
+    @Previewable @State var volume: Double = 0.65
+    
+    VolumeControl(volume: $volume)
+        .padding()
+        .background(Color.black)
+}
