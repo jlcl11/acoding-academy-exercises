@@ -33,6 +33,7 @@
 		C8836E6B2ECC7867008FA174 /* TaskListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8836E6A2ECC7867008FA174 /* TaskListContent.swift */; };
 		C8836E6D2ECC788E008FA174 /* FavoriteSwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8836E6C2ECC788E008FA174 /* FavoriteSwipeAction.swift */; };
 		C8836E6F2ECC78A8008FA174 /* DeleteSwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8836E6E2ECC78A8008FA174 /* DeleteSwipeAction.swift */; };
+		C8836E762ECC8820008FA174 /* FaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8836E752ECC8820008FA174 /* FaceCard.swift */; };
 		C8BA04772EC748D8007A79EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8BA04732EC748D8007A79EB /* Assets.xcassets */; };
 		C8BA04782EC748D8007A79EB /* AlbumCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */; };
 		C8BA04792EC748D8007A79EB /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */; };
@@ -88,6 +89,7 @@
 		C8836E6A2ECC7867008FA174 /* TaskListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListContent.swift; sourceTree = "<group>"; };
 		C8836E6C2ECC788E008FA174 /* FavoriteSwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSwipeAction.swift; sourceTree = "<group>"; };
 		C8836E6E2ECC78A8008FA174 /* DeleteSwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteSwipeAction.swift; sourceTree = "<group>"; };
+		C8836E752ECC8820008FA174 /* FaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCard.swift; sourceTree = "<group>"; };
 		C8891D522EC2026000B5EA76 /* Ejercicios acoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejercicios acoding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCoverView.swift; sourceTree = "<group>"; };
 		C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
@@ -208,6 +210,30 @@
 			path = Subcomponents;
 			sourceTree = "<group>";
 		};
+		C8836E702ECC7EF4008FA174 /* Exercise 4 Face Card */ = {
+			isa = PBXGroup;
+			children = (
+				C8836E742ECC85D3008FA174 /* Views */,
+				C8836E732ECC85CA008FA174 /* Model */,
+			);
+			path = "Exercise 4 Face Card";
+			sourceTree = "<group>";
+		};
+		C8836E732ECC85CA008FA174 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8836E742ECC85D3008FA174 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8836E752ECC8820008FA174 /* FaceCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C8891D492EC2026000B5EA76 = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +290,7 @@
 				C8BA04722EC748D8007A79EB /* Exercise 1 Music Player */,
 				C8F251632ECB51C2008903EA /* Exercise 2 Weather app */,
 				C856803B2ECBB289006B530C /* Exercise 3 To Do */,
+				C8836E702ECC7EF4008FA174 /* Exercise 4 Face Card */,
 				C8BA04732EC748D8007A79EB /* Assets.xcassets */,
 				C8BA04742EC748D8007A79EB /* ContentView.swift */,
 				C8BA04752EC748D8007A79EB /* Ejercicios_acodingApp.swift */,
@@ -393,6 +420,7 @@
 				C8BA047A2EC748D8007A79EB /* MusicPlayer.swift in Sources */,
 				C85680672ECBCF1A006B530C /* TaskContent.swift in Sources */,
 				C8F251682ECB753F008903EA /* Constants.swift in Sources */,
+				C8836E762ECC8820008FA174 /* FaceCard.swift in Sources */,
 				C856806D2ECBCF7D006B530C /* FilterButtonsRow.swift in Sources */,
 				C85680522ECBC997006B530C /* TaskRowView.swift in Sources */,
 				C8F2517D2ECB77CC008903EA /* TemperatureBar.swift in Sources */,
