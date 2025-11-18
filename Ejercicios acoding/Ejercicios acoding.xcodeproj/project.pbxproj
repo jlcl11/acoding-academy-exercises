@@ -15,6 +15,9 @@
 		C83F9DCB2ECCC7B9007B8BF7 /* InterestGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83F9DCA2ECCC7B9007B8BF7 /* InterestGrid.swift */; };
 		C83F9DCD2ECCC7C9007B8BF7 /* InterestChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83F9DCC2ECCC7C9007B8BF7 /* InterestChip.swift */; };
 		C83F9DCF2ECCC85B007B8BF7 /* StylesFC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83F9DCE2ECCC85B007B8BF7 /* StylesFC.swift */; };
+		C83F9DD42ECCCA04007B8BF7 /* Poderes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83F9DD22ECCCA04007B8BF7 /* Poderes.swift */; };
+		C83F9DD52ECCCA04007B8BF7 /* SuperHeroesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83F9DD32ECCCA04007B8BF7 /* SuperHeroesData.swift */; };
+		C83F9DD82ECCCAE3007B8BF7 /* SuperHeroGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83F9DD72ECCCAE3007B8BF7 /* SuperHeroGrid.swift */; };
 		C85680342ECB9DAC006B530C /* AppStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680332ECB9DAC006B530C /* AppStyles.swift */; };
 		C85680412ECBC8DD006B530C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680402ECBC8DD006B530C /* Task.swift */; };
 		C85680442ECBC906006B530C /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680432ECBC906006B530C /* TaskViewModel.swift */; };
@@ -79,6 +82,9 @@
 		C83F9DCA2ECCC7B9007B8BF7 /* InterestGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestGrid.swift; sourceTree = "<group>"; };
 		C83F9DCC2ECCC7C9007B8BF7 /* InterestChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestChip.swift; sourceTree = "<group>"; };
 		C83F9DCE2ECCC85B007B8BF7 /* StylesFC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesFC.swift; sourceTree = "<group>"; };
+		C83F9DD22ECCCA04007B8BF7 /* Poderes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poderes.swift; sourceTree = "<group>"; };
+		C83F9DD32ECCCA04007B8BF7 /* SuperHeroesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroesData.swift; sourceTree = "<group>"; };
+		C83F9DD72ECCCAE3007B8BF7 /* SuperHeroGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroGrid.swift; sourceTree = "<group>"; };
 		C85680332ECB9DAC006B530C /* AppStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyles.swift; sourceTree = "<group>"; };
 		C85680402ECBC8DD006B530C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		C85680432ECBC906006B530C /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
@@ -165,6 +171,32 @@
 				C83F9DC22ECCC6C8007B8BF7 /* InfoSection.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		C83F9DD02ECCC9A9007B8BF7 /* Exercise 5 SuperHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				C83F9DD12ECCC9C4007B8BF7 /* Model */,
+				C83F9DD62ECCCA10007B8BF7 /* Views */,
+			);
+			path = "Exercise 5 SuperHeroes";
+			sourceTree = "<group>";
+		};
+		C83F9DD12ECCC9C4007B8BF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C83F9DD22ECCCA04007B8BF7 /* Poderes.swift */,
+				C83F9DD32ECCCA04007B8BF7 /* SuperHeroesData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C83F9DD62ECCCA10007B8BF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C83F9DD72ECCCAE3007B8BF7 /* SuperHeroGrid.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C856803B2ECBB289006B530C /* Exercise 3 To Do */ = {
@@ -323,6 +355,7 @@
 				C8F251632ECB51C2008903EA /* Exercise 2 Weather app */,
 				C856803B2ECBB289006B530C /* Exercise 3 To Do */,
 				C8836E702ECC7EF4008FA174 /* Exercise 4 Face Card */,
+				C83F9DD02ECCC9A9007B8BF7 /* Exercise 5 SuperHeroes */,
 				C8BA04732EC748D8007A79EB /* Assets.xcassets */,
 				C8BA04742EC748D8007A79EB /* ContentView.swift */,
 				C8BA04752EC748D8007A79EB /* Ejercicios_acodingApp.swift */,
@@ -445,6 +478,7 @@
 				C85680692ECBCF30006B530C /* EmptyStateView.swift in Sources */,
 				C8F2516E2ECB75F8008903EA /* DailyForecast.swift in Sources */,
 				C85680562ECBC9B5006B530C /* ToDoStyles.swift in Sources */,
+				C83F9DD82ECCCAE3007B8BF7 /* SuperHeroGrid.swift in Sources */,
 				C8F2516A2ECB7582008903EA /* CurrentWeather.swift in Sources */,
 				C8BA04782EC748D8007A79EB /* AlbumCoverView.swift in Sources */,
 				C8BA04792EC748D8007A79EB /* PlayerControlsView.swift in Sources */,
@@ -470,6 +504,8 @@
 				C8BA04842EC74DCF007A79EB /* PlaybackControls.swift in Sources */,
 				C8BA04822EC74DB7007A79EB /* TimelineSlider.swift in Sources */,
 				C85680542ECBC9A2006B530C /* PriorityBadge.swift in Sources */,
+				C83F9DD42ECCCA04007B8BF7 /* Poderes.swift in Sources */,
+				C83F9DD52ECCCA04007B8BF7 /* SuperHeroesData.swift in Sources */,
 				C85680592ECBCE7A006B530C /* CategoryBadge.swift in Sources */,
 				C8BA047B2EC748D8007A79EB /* Song.swift in Sources */,
 				C856804E2ECBC980006B530C /* FilterButton.swift in Sources */,
