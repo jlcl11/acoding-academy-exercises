@@ -30,6 +30,9 @@
 		C85680712ECBCFD4006B530C /* TaskPreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680702ECBCFD4006B530C /* TaskPreviewCard.swift */; };
 		C85680732ECBCFFD006B530C /* AddTaskSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680722ECBCFFD006B530C /* AddTaskSheet.swift */; };
 		C85680752ECBD023006B530C /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680742ECBD023006B530C /* ToDoView.swift */; };
+		C8836E6B2ECC7867008FA174 /* TaskListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8836E6A2ECC7867008FA174 /* TaskListContent.swift */; };
+		C8836E6D2ECC788E008FA174 /* FavoriteSwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8836E6C2ECC788E008FA174 /* FavoriteSwipeAction.swift */; };
+		C8836E6F2ECC78A8008FA174 /* DeleteSwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8836E6E2ECC78A8008FA174 /* DeleteSwipeAction.swift */; };
 		C8BA04772EC748D8007A79EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8BA04732EC748D8007A79EB /* Assets.xcassets */; };
 		C8BA04782EC748D8007A79EB /* AlbumCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */; };
 		C8BA04792EC748D8007A79EB /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */; };
@@ -82,6 +85,9 @@
 		C85680702ECBCFD4006B530C /* TaskPreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPreviewCard.swift; sourceTree = "<group>"; };
 		C85680722ECBCFFD006B530C /* AddTaskSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskSheet.swift; sourceTree = "<group>"; };
 		C85680742ECBD023006B530C /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		C8836E6A2ECC7867008FA174 /* TaskListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListContent.swift; sourceTree = "<group>"; };
+		C8836E6C2ECC788E008FA174 /* FavoriteSwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSwipeAction.swift; sourceTree = "<group>"; };
+		C8836E6E2ECC78A8008FA174 /* DeleteSwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteSwipeAction.swift; sourceTree = "<group>"; };
 		C8891D522EC2026000B5EA76 /* Ejercicios acoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejercicios acoding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BA046C2EC748D8007A79EB /* AlbumCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCoverView.swift; sourceTree = "<group>"; };
 		C8BA046D2EC748D8007A79EB /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
@@ -173,6 +179,7 @@
 				C85680572ECBCE6B006B530C /* Subcomponents */,
 				C85680702ECBCFD4006B530C /* TaskPreviewCard.swift */,
 				C856806A2ECBCF46006B530C /* SectionHeader.swift */,
+				C8836E6A2ECC7867008FA174 /* TaskListContent.swift */,
 				C85680682ECBCF30006B530C /* EmptyStateView.swift */,
 				C85680662ECBCF1A006B530C /* TaskContent.swift */,
 				C85680512ECBC997006B530C /* TaskRowView.swift */,
@@ -183,6 +190,8 @@
 		C85680572ECBCE6B006B530C /* Subcomponents */ = {
 			isa = PBXGroup;
 			children = (
+				C8836E6E2ECC78A8008FA174 /* DeleteSwipeAction.swift */,
+				C8836E6C2ECC788E008FA174 /* FavoriteSwipeAction.swift */,
 				C856806E2ECBCFB8006B530C /* ActionButtonsRow.swift */,
 				C856806C2ECBCF7D006B530C /* FilterButtonsRow.swift */,
 				C85680642ECBCEFF006B530C /* TaskMetadata.swift */,
@@ -407,12 +416,15 @@
 				C85680632ECBCEE6006B530C /* TaskDescription.swift in Sources */,
 				C856805D2ECBCE9A006B530C /* FavoriteIcon.swift in Sources */,
 				C8F251652ECB51EB008903EA /* WeatherApp.swift in Sources */,
+				C8836E6B2ECC7867008FA174 /* TaskListContent.swift in Sources */,
 				C8BA047C2EC748D8007A79EB /* Styles.swift in Sources */,
 				C8BA047D2EC748D8007A79EB /* ContentView.swift in Sources */,
+				C8836E6D2ECC788E008FA174 /* FavoriteSwipeAction.swift in Sources */,
 				C8F2517B2ECB77A2008903EA /* DailyForecastRow.swift in Sources */,
 				C8F251752ECB7740008903EA /* HourlyForecastCard.swift in Sources */,
 				C8BA047E2EC748D8007A79EB /* Ejercicios_acodingApp.swift in Sources */,
 				C856806F2ECBCFB8006B530C /* ActionButtonsRow.swift in Sources */,
+				C8836E6F2ECC78A8008FA174 /* DeleteSwipeAction.swift in Sources */,
 				C85680752ECBD023006B530C /* ToDoView.swift in Sources */,
 				C8F2516C2ECB75D3008903EA /* HourlyForecast.swift in Sources */,
 				C8F251712ECB76BF008903EA /* WeatherBackground.swift in Sources */,

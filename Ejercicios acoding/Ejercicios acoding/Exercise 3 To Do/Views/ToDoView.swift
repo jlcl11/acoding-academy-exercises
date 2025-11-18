@@ -38,7 +38,24 @@ struct ToDoView: View {
                 
                 Divider()
                 
-                taskListContent
+                TaskListContent(
+                    tasksByCategory: viewModel.tasksByCategory,
+                    onToggleComplete: { task in
+                        withAnimation(.snappy) {
+                            viewModel.toggleCompletion(for: task)
+                        }
+                    },
+                    onToggleFavorite: { task in
+                        withAnimation(.snappy) {
+                            viewModel.toggleFavorite(for: task)
+                        }
+                    },
+                    onDelete: { task in
+                        withAnimation(.snappy) {
+                            viewModel.deleteTask(task)
+                        }
+                    }
+                )
             }
             .navigationTitle("My Tasks")
             .navigationBarTitleDisplayMode(.large)
@@ -49,76 +66,9 @@ struct ToDoView: View {
             }
         }
     }
-    
-    // MARK: - Task List Content
-    
-    @ViewBuilder
-    private var taskListContent: some View {
-        if viewModel.isEmpty {
-            EmptyStateView(filterOption: viewModel.filterOption)
-        } else {
-            List {
-                ForEach(viewModel.tasksByCategory, id: \.category) { categoryGroup in
-                    Section {
-                        ForEach(categoryGroup.tasks) { task in
-                            TaskRowView(
-                                task: task,
-                                onToggleComplete: {
-                                    withAnimation(.snappy) {
-                                        viewModel.toggleCompletion(for: task)
-                                    }
-                                },
-                                onToggleFavorite: {
-                                    withAnimation(.snappy) {
-                                        viewModel.toggleFavorite(for: task)
-                                    }
-                                }
-                            )
-                            .swipeActions(edge: .leading, allowsFullSwipe: true) {
-                                favoriteSwipeAction(for: task)
-                            }
-                            .swipeActions(edge: .trailing, allowsFullSwipe: false) {
-                                deleteSwipeAction(for: task)
-                            }
-                        }
-                    } header: {
-                        SectionHeader(category: categoryGroup.category)
-                    }
-                }
-            }
-            .listStyle(.insetGrouped)
-        }
-    }
-    
-    // MARK: - Swipe Actions
-    
-    private func favoriteSwipeAction(for task: Task) -> some View {
-        Button {
-            withAnimation(.snappy) {
-                viewModel.toggleFavorite(for: task)
-            }
-        } label: {
-            Label(
-                "Favorite",
-                systemImage: task.isFavorite ? "star.slash.fill" : "star.fill"
-            )
-        }
-        .tint(.yellow)
-    }
-    
-    private func deleteSwipeAction(for task: Task) -> some View {
-        Button(role: .destructive) {
-            withAnimation(.snappy) {
-                viewModel.deleteTask(task)
-            }
-        } label: {
-            Label("Delete", systemImage: "trash.fill")
-        }
-    }
 }
 
-#Preview  {
+
+#Preview {
     ToDoView()
 }
-
- 
