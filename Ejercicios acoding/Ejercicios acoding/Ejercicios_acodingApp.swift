@@ -11,7 +11,7 @@ import SwiftUI
 struct Ejercicios_acodingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SuperHeroGridView()
         }
     }
 }

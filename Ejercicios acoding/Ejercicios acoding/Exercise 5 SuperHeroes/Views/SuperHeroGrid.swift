@@ -7,12 +7,31 @@
 
 import SwiftUI
 
-struct SuperHeroGrid: View {
+struct SuperHeroGridView: View {
+    let columns = [
+        GridItem(.adaptive(minimum: SuperHeroStyles.Sizes.cardWidth))
+    ]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            LazyVGrid(columns: columns, spacing: 20) {
+                ForEach(SUPERHEROES) { hero in
+                    NavigationLink(destination: SuperHeroDetailView(hero: hero)) {
+                        SuperHeroGridCard(hero: hero)
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                }
+            }
+            .padding()
+        }
+        .navigationTitle("Superheroes")
+    }
+}
+ 
+#Preview("Grid View") {
+    NavigationStack {
+        SuperHeroGridView()
     }
 }
 
-#Preview {
-    SuperHeroGrid()
-}
+ 

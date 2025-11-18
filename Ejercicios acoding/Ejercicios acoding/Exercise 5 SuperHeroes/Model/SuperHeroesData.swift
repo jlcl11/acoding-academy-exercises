@@ -3,7 +3,9 @@
 
 import Foundation
 
-struct SuperHero {
+import Foundation
+
+struct SuperHero: Identifiable {
     let id: UUID
     let nombreReal: String
     let apodo: String
@@ -73,7 +75,7 @@ let SUPERHEROES: [SuperHero] = [
         imagen: "cronos"
     ),
     SuperHero(
-        id: "f23d5e7a-2b4c-4a9d-9e3d-2d5e6f7e0g89",
+        id: "f23d5e7a-2b4c-4a9d-9e3d-2d5e6f7e0a89",  // ✅ Corregido: cambié 'g' por 'a'
         nombreReal: "Isabel Ruiz",
         apodo: "Elementa",
         descripcion: "Isabel puede controlar y manipular los elementos naturales. Un ritual ancestral le otorgó el don de dominar fuego, agua, tierra y aire a su antojo.",
@@ -82,7 +84,7 @@ let SUPERHEROES: [SuperHero] = [
         imagen: "elementa"
     ),
     SuperHero(
-        id: "b43g5j78-1a2d-5g6h-7i8j-9k1l2m3n4o5p",
+        id: "b4305a78-1a2d-5a6b-7c8d-9e1f2a3b4c5d",  // ✅ Corregido: reemplacé caracteres inválidos
         nombreReal: "Luis Fernández",
         apodo: "Reflejo",
         descripcion: "Luis puede crear duplicados exactos de sí mismo que actúan de forma independiente. Estos duplicados son temporales y desaparecen después de un tiempo. Utiliza este poder para estar en múltiples lugares a la vez, ayudando a quien lo necesita.",
@@ -91,7 +93,7 @@ let SUPERHEROES: [SuperHero] = [
         imagen: "reflejo"
     ),
     SuperHero(
-        id: "c56n7o89-0p9o-8l7m-6n5b-4v3c2x1z0a9s",
+        id: "c56a7b89-0c9d-8e7f-6a5b-4c3d2e1f0a9b",  // ✅ Corregido: reemplacé caracteres inválidos
         nombreReal: "Carmen Morales",
         apodo: "Eco",
         descripcion: "Carmen puede imitar y amplificar cualquier sonido que haya escuchado, utilizando estas habilidades para comunicarse, desorientar a sus enemigos o incluso como una forma de sonar.",
@@ -100,7 +102,7 @@ let SUPERHEROES: [SuperHero] = [
         imagen: "eco"
     ),
     SuperHero(
-        id: "d67p8q90-1z2a-3x4w-5e6r-7t8y9u0i1o2p",
+        id: "d67a8b90-1c2a-3e4f-5e6d-7a8b9c0d1e2f",  // ✅ Corregido: reemplacé caracteres inválidos
         nombreReal: "Miguel Álvarez",
         apodo: "Pulso",
         descripcion: "Miguel puede generar y controlar vibraciones a su antojo. Ya sea para causar terremotos, crear barreras de ondas de choque o incluso volar al vibrar a altas velocidades.",
@@ -109,7 +111,7 @@ let SUPERHEROES: [SuperHero] = [
         imagen: "pulso"
     ),
     SuperHero(
-        id: "e78r9s01-2t3y-4u5i-6o7p-8a9s0d1f2g3h",
+        id: "e78d9a01-2a3b-4c5d-6e7f-8a9b0c1d2e3f",  // ✅ Corregido: reemplacé caracteres inválidos
         nombreReal: "Beatriz Jiménez",
         apodo: "LuzEstelar",
         descripcion: "Beatriz puede manipular y emitir luz de diferentes intensidades y colores. Utiliza esta habilidad para iluminar lugares oscuros, crear ilusiones ópticas o incluso emitir destellos cegadores para defenderse de adversarios.",
@@ -118,7 +120,7 @@ let SUPERHEROES: [SuperHero] = [
         imagen: "luzEstelar"
     ),
     SuperHero(
-        id: "f89t0a12-3b4c-5d6e-7f8g-9h0i1j2k3l4m",
+        id: "f89a0b12-3c4d-5e6f-7a8b-9c0d1e2f3a4b",  // ✅ Corregido: reemplacé caracteres inválidos
         nombreReal: "Pedro Sánchez",
         apodo: "Giro",
         descripcion: "Pedro tiene la habilidad de girar sobre sí mismo a velocidades increíbles, creando tornados o simplemente moviéndose rápidamente de un lugar a otro. A menudo se le ve como un torbellino en movimiento cuando usa su poder al máximo.",
@@ -127,7 +129,7 @@ let SUPERHEROES: [SuperHero] = [
         imagen: "giro"
     ),
     SuperHero(
-        id: "g90u1b23-4c5d-6e7f-8g9h-0i1j2k3l4m5n",
+        id: "a90b1c23-4d5e-6f7a-8b9c-0d1e2f3a4b5c",  // ✅ Corregido: reemplacé caracteres inválidos
         nombreReal: "Sara López",
         apodo: "Geo",
         descripcion: "Sara puede manipular la tierra y las rocas a su antojo. Desde levantar muros de piedra hasta causar pequeños terremotos, Geo es una fuerza a tener en cuenta cuando está conectada con el suelo.",

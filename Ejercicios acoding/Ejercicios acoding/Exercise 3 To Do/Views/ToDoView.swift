@@ -13,56 +13,54 @@ struct ToDoView: View {
     @State private var showingAddSheet = false
     
     var body: some View {
-        NavigationStack {
-            VStack(spacing: 0) {
-                FilterButtonsRow(
-                    selectedFilter: viewModel.filterOption,
-                    onFilterTap: { filter in
-                        withAnimation(.snappy) {
-                            viewModel.setFilter(filter)
-                        }
+        VStack(spacing: 0) {
+            FilterButtonsRow(
+                selectedFilter: viewModel.filterOption,
+                onFilterTap: { filter in
+                    withAnimation(.snappy) {
+                        viewModel.setFilter(filter)
                     }
-                )
-                
-                ActionButtonsRow(
-                    selectedSort: viewModel.sortOption,
-                    onSortTap: { sort in
-                        withAnimation(.snappy) {
-                            viewModel.setSort(sort)
-                        }
-                    },
-                    onNewTaskTap: {
-                        showingAddSheet = true
-                    }
-                )
-                
-                Divider()
-                
-                TaskListContent(
-                    tasksByCategory: viewModel.tasksByCategory,
-                    onToggleComplete: { task in
-                        withAnimation(.snappy) {
-                            viewModel.toggleCompletion(for: task)
-                        }
-                    },
-                    onToggleFavorite: { task in
-                        withAnimation(.snappy) {
-                            viewModel.toggleFavorite(for: task)
-                        }
-                    },
-                    onDelete: { task in
-                        withAnimation(.snappy) {
-                            viewModel.deleteTask(task)
-                        }
-                    }
-                )
-            }
-            .navigationTitle("My Tasks")
-            .navigationBarTitleDisplayMode(.large)
-            .sheet(isPresented: $showingAddSheet) {
-                AddTaskSheet { newTask in
-                    viewModel.addTask(newTask)
                 }
+            )
+            
+            ActionButtonsRow(
+                selectedSort: viewModel.sortOption,
+                onSortTap: { sort in
+                    withAnimation(.snappy) {
+                        viewModel.setSort(sort)
+                    }
+                },
+                onNewTaskTap: {
+                    showingAddSheet = true
+                }
+            )
+            
+            Divider()
+            
+            TaskListContent(
+                tasksByCategory: viewModel.tasksByCategory,
+                onToggleComplete: { task in
+                    withAnimation(.snappy) {
+                        viewModel.toggleCompletion(for: task)
+                    }
+                },
+                onToggleFavorite: { task in
+                    withAnimation(.snappy) {
+                        viewModel.toggleFavorite(for: task)
+                    }
+                },
+                onDelete: { task in
+                    withAnimation(.snappy) {
+                        viewModel.deleteTask(task)
+                    }
+                }
+            )
+        }
+        .navigationTitle("My Tasks")
+        .navigationBarTitleDisplayMode(.large)
+        .sheet(isPresented: $showingAddSheet) {
+            AddTaskSheet { newTask in
+                viewModel.addTask(newTask)
             }
         }
     }
@@ -70,5 +68,7 @@ struct ToDoView: View {
 
 
 #Preview {
-    ToDoView()
+    NavigationStack {
+        ToDoView()
+    }
 }

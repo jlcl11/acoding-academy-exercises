@@ -41,6 +41,21 @@
 		C85680712ECBCFD4006B530C /* TaskPreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680702ECBCFD4006B530C /* TaskPreviewCard.swift */; };
 		C85680732ECBCFFD006B530C /* AddTaskSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680722ECBCFFD006B530C /* AddTaskSheet.swift */; };
 		C85680752ECBD023006B530C /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85680742ECBD023006B530C /* ToDoView.swift */; };
+		C869D62A2ECD03AE004D9501 /* SuperHeroGridCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D6292ECD03AE004D9501 /* SuperHeroGridCard.swift */; };
+		C869D62C2ECD03DC004D9501 /* HeroCardText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D62B2ECD03DC004D9501 /* HeroCardText.swift */; };
+		C869D62F2ECD04D9004D9501 /* SuperHeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D62E2ECD04D9004D9501 /* SuperHeroDetailView.swift */; };
+		C869D6322ECD050F004D9501 /* HeroHeaderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D6312ECD050F004D9501 /* HeroHeaderImage.swift */; };
+		C869D6342ECD12BE004D9501 /* SuperHeroStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D6332ECD12BE004D9501 /* SuperHeroStyles.swift */; };
+		C869D6362ECD12E9004D9501 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D6352ECD12E9004D9501 /* ViewModifiers.swift */; };
+		C869D6382ECD132B004D9501 /* BadgeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D6372ECD132B004D9501 /* BadgeStyle.swift */; };
+		C869D63A2ECD1351004D9501 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D6392ECD1351004D9501 /* BackButton.swift */; };
+		C869D63C2ECD1367004D9501 /* HeroInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D63B2ECD1367004D9501 /* HeroInfo.swift */; };
+		C869D63E2ECD137E004D9501 /* AgeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D63D2ECD137E004D9501 /* AgeBadge.swift */; };
+		C869D6402ECD1395004D9501 /* HeroContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D63F2ECD1395004D9501 /* HeroContent.swift */; };
+		C869D6422ECD13A6004D9501 /* PowerIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D6412ECD13A6004D9501 /* PowerIcon.swift */; };
+		C869D6442ECD13B6004D9501 /* PowerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D6432ECD13B6004D9501 /* PowerRow.swift */; };
+		C869D6462ECD13C7004D9501 /* PowersSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D6452ECD13C7004D9501 /* PowersSection.swift */; };
+		C869D6482ECD13D8004D9501 /* StorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869D6472ECD13D8004D9501 /* StorySection.swift */; };
 		C8836E6B2ECC7867008FA174 /* TaskListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8836E6A2ECC7867008FA174 /* TaskListContent.swift */; };
 		C8836E6D2ECC788E008FA174 /* FavoriteSwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8836E6C2ECC788E008FA174 /* FavoriteSwipeAction.swift */; };
 		C8836E6F2ECC78A8008FA174 /* DeleteSwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8836E6E2ECC78A8008FA174 /* DeleteSwipeAction.swift */; };
@@ -108,6 +123,21 @@
 		C85680702ECBCFD4006B530C /* TaskPreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPreviewCard.swift; sourceTree = "<group>"; };
 		C85680722ECBCFFD006B530C /* AddTaskSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskSheet.swift; sourceTree = "<group>"; };
 		C85680742ECBD023006B530C /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		C869D6292ECD03AE004D9501 /* SuperHeroGridCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroGridCard.swift; sourceTree = "<group>"; };
+		C869D62B2ECD03DC004D9501 /* HeroCardText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCardText.swift; sourceTree = "<group>"; };
+		C869D62E2ECD04D9004D9501 /* SuperHeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailView.swift; sourceTree = "<group>"; };
+		C869D6312ECD050F004D9501 /* HeroHeaderImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderImage.swift; sourceTree = "<group>"; };
+		C869D6332ECD12BE004D9501 /* SuperHeroStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroStyles.swift; sourceTree = "<group>"; };
+		C869D6352ECD12E9004D9501 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		C869D6372ECD132B004D9501 /* BadgeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeStyle.swift; sourceTree = "<group>"; };
+		C869D6392ECD1351004D9501 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		C869D63B2ECD1367004D9501 /* HeroInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroInfo.swift; sourceTree = "<group>"; };
+		C869D63D2ECD137E004D9501 /* AgeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeBadge.swift; sourceTree = "<group>"; };
+		C869D63F2ECD1395004D9501 /* HeroContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroContent.swift; sourceTree = "<group>"; };
+		C869D6412ECD13A6004D9501 /* PowerIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerIcon.swift; sourceTree = "<group>"; };
+		C869D6432ECD13B6004D9501 /* PowerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRow.swift; sourceTree = "<group>"; };
+		C869D6452ECD13C7004D9501 /* PowersSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowersSection.swift; sourceTree = "<group>"; };
+		C869D6472ECD13D8004D9501 /* StorySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorySection.swift; sourceTree = "<group>"; };
 		C8836E6A2ECC7867008FA174 /* TaskListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListContent.swift; sourceTree = "<group>"; };
 		C8836E6C2ECC788E008FA174 /* FavoriteSwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSwipeAction.swift; sourceTree = "<group>"; };
 		C8836E6E2ECC78A8008FA174 /* DeleteSwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteSwipeAction.swift; sourceTree = "<group>"; };
@@ -194,7 +224,10 @@
 		C83F9DD62ECCCA10007B8BF7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C869D62D2ECD0412004D9501 /* Detail */,
+				C869D6282ECD0384004D9501 /* Components */,
 				C83F9DD72ECCCAE3007B8BF7 /* SuperHeroGrid.swift */,
+				C869D6352ECD12E9004D9501 /* ViewModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,6 +312,41 @@
 			path = Subcomponents;
 			sourceTree = "<group>";
 		};
+		C869D6282ECD0384004D9501 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C869D62B2ECD03DC004D9501 /* HeroCardText.swift */,
+				C869D6292ECD03AE004D9501 /* SuperHeroGridCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C869D62D2ECD0412004D9501 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C869D6302ECD0507004D9501 /* Components */,
+				C869D62E2ECD04D9004D9501 /* SuperHeroDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C869D6302ECD0507004D9501 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C869D6472ECD13D8004D9501 /* StorySection.swift */,
+				C869D6452ECD13C7004D9501 /* PowersSection.swift */,
+				C869D6432ECD13B6004D9501 /* PowerRow.swift */,
+				C869D6412ECD13A6004D9501 /* PowerIcon.swift */,
+				C869D63F2ECD1395004D9501 /* HeroContent.swift */,
+				C869D63D2ECD137E004D9501 /* AgeBadge.swift */,
+				C869D63B2ECD1367004D9501 /* HeroInfo.swift */,
+				C869D6392ECD1351004D9501 /* BackButton.swift */,
+				C869D6372ECD132B004D9501 /* BadgeStyle.swift */,
+				C869D6312ECD050F004D9501 /* HeroHeaderImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		C8836E702ECC7EF4008FA174 /* Exercise 4 Face Card */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +424,7 @@
 				C856803B2ECBB289006B530C /* Exercise 3 To Do */,
 				C8836E702ECC7EF4008FA174 /* Exercise 4 Face Card */,
 				C83F9DD02ECCC9A9007B8BF7 /* Exercise 5 SuperHeroes */,
+				C869D6332ECD12BE004D9501 /* SuperHeroStyles.swift */,
 				C8BA04732EC748D8007A79EB /* Assets.xcassets */,
 				C8BA04742EC748D8007A79EB /* ContentView.swift */,
 				C8BA04752EC748D8007A79EB /* Ejercicios_acodingApp.swift */,
@@ -472,12 +541,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C83F9DC72ECCC72A007B8BF7 /* ProfileHeader.swift in Sources */,
+				C869D6342ECD12BE004D9501 /* SuperHeroStyles.swift in Sources */,
 				C85680732ECBCFFD006B530C /* AddTaskSheet.swift in Sources */,
+				C869D6402ECD1395004D9501 /* HeroContent.swift in Sources */,
 				C8BA04882EC750C9007A79EB /* PlayerGradientBackground.swift in Sources */,
 				C8BA04862EC74DFE007A79EB /* ActionButtons.swift in Sources */,
 				C85680692ECBCF30006B530C /* EmptyStateView.swift in Sources */,
 				C8F2516E2ECB75F8008903EA /* DailyForecast.swift in Sources */,
+				C869D6322ECD050F004D9501 /* HeroHeaderImage.swift in Sources */,
 				C85680562ECBC9B5006B530C /* ToDoStyles.swift in Sources */,
+				C869D6462ECD13C7004D9501 /* PowersSection.swift in Sources */,
+				C869D6382ECD132B004D9501 /* BadgeStyle.swift in Sources */,
 				C83F9DD82ECCCAE3007B8BF7 /* SuperHeroGrid.swift in Sources */,
 				C8F2516A2ECB7582008903EA /* CurrentWeather.swift in Sources */,
 				C8BA04782EC748D8007A79EB /* AlbumCoverView.swift in Sources */,
@@ -485,7 +559,9 @@
 				C83F9DC32ECCC6C8007B8BF7 /* InfoSection.swift in Sources */,
 				C856806B2ECBCF46006B530C /* SectionHeader.swift in Sources */,
 				C8F251772ECB7752008903EA /* HourlyWeatherView.swift in Sources */,
+				C869D6442ECD13B6004D9501 /* PowerRow.swift in Sources */,
 				C83F9DC52ECCC6F8007B8BF7 /* AboutSection.swift in Sources */,
+				C869D62A2ECD03AE004D9501 /* SuperHeroGridCard.swift in Sources */,
 				C8BA047A2EC748D8007A79EB /* MusicPlayer.swift in Sources */,
 				C85680672ECBCF1A006B530C /* TaskContent.swift in Sources */,
 				C8F251682ECB753F008903EA /* Constants.swift in Sources */,
@@ -494,6 +570,7 @@
 				C85680522ECBC997006B530C /* TaskRowView.swift in Sources */,
 				C8F2517D2ECB77CC008903EA /* TemperatureBar.swift in Sources */,
 				C85680652ECBCEFF006B530C /* TaskMetadata.swift in Sources */,
+				C869D63C2ECD1367004D9501 /* HeroInfo.swift in Sources */,
 				C85680442ECBC906006B530C /* TaskViewModel.swift in Sources */,
 				C83F9DC02ECCC5A0007B8BF7 /* Person.swift in Sources */,
 				C8BA04802EC74CC2007A79EB /* SongInfoHeader.swift in Sources */,
@@ -502,6 +579,7 @@
 				C85680412ECBC8DD006B530C /* Task.swift in Sources */,
 				C85680712ECBCFD4006B530C /* TaskPreviewCard.swift in Sources */,
 				C8BA04842EC74DCF007A79EB /* PlaybackControls.swift in Sources */,
+				C869D62C2ECD03DC004D9501 /* HeroCardText.swift in Sources */,
 				C8BA04822EC74DB7007A79EB /* TimelineSlider.swift in Sources */,
 				C85680542ECBC9A2006B530C /* PriorityBadge.swift in Sources */,
 				C83F9DD42ECCCA04007B8BF7 /* Poderes.swift in Sources */,
@@ -513,6 +591,7 @@
 				C85680342ECB9DAC006B530C /* AppStyles.swift in Sources */,
 				C83F9DCD2ECCC7C9007B8BF7 /* InterestChip.swift in Sources */,
 				C8F251792ECB776C008903EA /* DailyForecastCard.swift in Sources */,
+				C869D6362ECD12E9004D9501 /* ViewModifiers.swift in Sources */,
 				C8F251732ECB771D008903EA /* CurrentWeatherView.swift in Sources */,
 				C85680632ECBCEE6006B530C /* TaskDescription.swift in Sources */,
 				C856805D2ECBCE9A006B530C /* FavoriteIcon.swift in Sources */,
@@ -522,16 +601,21 @@
 				C8BA047D2EC748D8007A79EB /* ContentView.swift in Sources */,
 				C8836E6D2ECC788E008FA174 /* FavoriteSwipeAction.swift in Sources */,
 				C8F2517B2ECB77A2008903EA /* DailyForecastRow.swift in Sources */,
+				C869D62F2ECD04D9004D9501 /* SuperHeroDetailView.swift in Sources */,
+				C869D6422ECD13A6004D9501 /* PowerIcon.swift in Sources */,
 				C8F251752ECB7740008903EA /* HourlyForecastCard.swift in Sources */,
 				C8BA047E2EC748D8007A79EB /* Ejercicios_acodingApp.swift in Sources */,
 				C856806F2ECBCFB8006B530C /* ActionButtonsRow.swift in Sources */,
 				C83F9DCF2ECCC85B007B8BF7 /* StylesFC.swift in Sources */,
 				C8836E6F2ECC78A8008FA174 /* DeleteSwipeAction.swift in Sources */,
+				C869D63A2ECD1351004D9501 /* BackButton.swift in Sources */,
 				C85680752ECBD023006B530C /* ToDoView.swift in Sources */,
+				C869D63E2ECD137E004D9501 /* AgeBadge.swift in Sources */,
 				C8F2516C2ECB75D3008903EA /* HourlyForecast.swift in Sources */,
 				C83F9DC92ECCC754007B8BF7 /* ProfileInfoRow.swift in Sources */,
 				C8F251712ECB76BF008903EA /* WeatherBackground.swift in Sources */,
 				C85680612ECBCED4006B530C /* TaskTitle.swift in Sources */,
+				C869D6482ECD13D8004D9501 /* StorySection.swift in Sources */,
 				C856805F2ECBCEC4006B530C /* DueDateLabel.swift in Sources */,
 				C83F9DCB2ECCC7B9007B8BF7 /* InterestGrid.swift in Sources */,
 			);
